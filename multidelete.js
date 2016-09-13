@@ -24,7 +24,7 @@ new Vue({
             console.log('Delete Activeted');
             var url = // Backend Url That is Process The Indexes ;
             var selected = {indexes :this.indexes};
-            if( selected.length > 0){
+            if( selected.indexes.length.length > 0){
                 this.$http.post(url, selected ).then(function(request){
                     console.log(request);
                     toastr['success'](request.data.message, "Success");
