@@ -15,8 +15,8 @@ for exampel,
 
 - First on the page where you want to select the multiple objects , ''' add v-model="indexes" ''' on each object that can be selected
 - In the script file change the url where you want to send the array of data
-- You Done
-
+- Define multiple function like deleteSelect { givenasExample }, updateSelect, renameSelect as your need
+- You done
 
 ## Currently Included Checks
 
