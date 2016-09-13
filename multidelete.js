@@ -35,7 +35,7 @@ new Vue({
             }
             else{
 
-                    toastr['error']("Select At Least One Recoard ", "Error");
+                    alert(" No Element is Selected");
                 }
             }
 
