@@ -19,10 +19,11 @@ new Vue({
     },
 
     methods:{
-        deleteSelect: function()
-        {
+      operateSelect: function (path)
+      {
             console.log('Delete Activeted');
-            var url = // Backend Url That is Process The Indexes ;
+            console.log(path);
+            var url = path;
             var selected = {indexes :this.indexes};
             if( selected.indexes.length.length > 0){
 
